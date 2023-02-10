@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>E-Commerce</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .header form {
+        display: flex;
+        align-items: center;
+      }
+      .header form input[type="text"] {
+        border: none;
+        background-color: #fff;
+        color: #333;
+        padding: 10px;
+        width: 500px;
+        margin-right: 10px;
+      }
+      .header form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      .header a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <form>
+        <input type="text" placeholder="Pesquisar produtos">
+        <input type="submit" value="Pesquisar">
+      </form>
+      <a href="#">
+        <i class="fa-light fa-cart-shopping">Carrinho de compras</i>
+      </a>
+    </div>
+    <div class="content">
+      <div id="produtos">
+
+      </div>
+    </div>
+  </body>
+</html>
